@@ -1,13 +1,16 @@
+/* Universal settings for Box sizing, padding and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Background colour for body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Color and font family for everything in the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,8 +26,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/* Positions Nav bar to the right side, while improving readability */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +35,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -49,12 +52,12 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Feature image. Minimised size in order to improve load times */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting-min.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -69,12 +72,13 @@ p {
     margin-left: 25px;
 }
 
+/* Allows spacing between content to improve readability */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Adds different font sizes to the box on the right */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,7 +104,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Sets H3 tags to be center, seperating it clearly from the main section */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +120,7 @@ p {
     text-align: center;
 }
 
+/* Sets the box apart from the content sections */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,6 +139,7 @@ p {
     max-width: 150px;
 }
 
+/* Sets different font sizes for boxes on the main part of the website  */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +167,7 @@ p {
     color: #ffffff;
 }
 
+/* Sets the image sizes for the differnt images in the content boxes. */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +180,7 @@ p {
     max-height: 200px;
 }
 
+/* Sets the H2 tags to be universal and set across different classes */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +196,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer ends content on site, while creating more accessable setting navigation*/
 .footer {
     padding: 30px;
     clear: both;
